@@ -13,4 +13,9 @@ WriteMakefile(
                      'Tie::LLHash'      => 1.003,
                      'Test::Simple'     => 0.44,
                     },
+    META_MERGE => {
+        resources => {
+            repository => 'https://github.com/kmcgrath/Template-Plugin-LLHash',
+        },
+    },
 );
